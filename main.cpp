@@ -1,8 +1,8 @@
-#include <iostream>     // std::cout
-#include <memory>       // std::shared_ptr, std::make_shared
-#include <vector>       // std::vector
+#include <iostream>
+#include <memory>
+#include <vector>
 #include "ProcessBuilder.h"
-#include "Observer.h"   // zaktualizowany include
+#include "Observer.h"
 
 int main() {
     // stworzenie buildera i przekazanie do directora
