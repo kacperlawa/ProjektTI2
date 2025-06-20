@@ -37,7 +37,7 @@ void ProcessDirector::setBuilder(std::shared_ptr<ProcessBuilder> b) {
 }
 
 std::shared_ptr<Process> ProcessDirector::buildDefaultProcess() {
-    Process::Mat2x2 A = {{{-5.0, 0.0}, {0.0, -4.0}}}; // ustala domyślne parametry
+    Process::Mat2x2 A = {{{-0.4, 0.0}, {0.0, -0.4}}}; // ustala domyślne parametry
     Process::Vec2    B = {1.0, 2.0};
     Process::Vec2    x0 = {0.0, 0.0};
 
